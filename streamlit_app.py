@@ -46,6 +46,6 @@ st.write(f"**El precio por kilómetro es:** ${precio_por_km:,.2f}")
 
 # Apply color styling
 color = get_color(margen_utilidad)
-st.markdown(f"<p style='color:{color}; font-size:24px; font-weight:bold;'>La utilidad es: {margen_utilidad:.2%}</p>", unsafe_allow_html=True)
+st.markdown(f"<p style='color:{color}; font-size:24px; font-weight:bold;'>Utilidad: {margen_utilidad:.2%}</p>", unsafe_allow_html=True)
 
 st.write("---")
