@@ -2,6 +2,8 @@ import streamlit as st
 
 st.title("Cotizaciones - Border Freight")
 
+costo_por_km = 25.3
+
 kilometraje = st.number_input("Ingresa el kilometraje de la ruta:", min_value=1, step=1)
 
 dolares = st.radio("¿Deseas cotizar en dólares?", ("No", "Sí"))
