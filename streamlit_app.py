@@ -51,8 +51,4 @@ else:
         st.write(f"**La utilidad es:** {margen_utilidad:.2%}")
 
 st.write("---")
-st.write("💡 *Desarrollado para facilitar cotizaciones de rutas de transporte.*")
-
-                             
-
-
+                        
